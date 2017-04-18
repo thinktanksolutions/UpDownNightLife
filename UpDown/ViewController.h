@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    NSMutableArray *curvesList;
+    int	selectedCurveIndex;
+}
+@property(nonatomic,weak) IBOutlet UIImageView *logoImageView;
+@property(nonatomic,weak) IBOutlet UIButton *btnUpdown;
+@property(nonatomic,weak) IBOutlet UILabel *lblNightLife;
 
 @end
 
